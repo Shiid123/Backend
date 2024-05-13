@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://ashirbad:shiidashirbad@crud-app.egurvpe.mongodb.net/blog?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://ashirbad: password@crud-app.egurvpe.mongodb.net/blog?retryWrites=true&w=majority');
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database
